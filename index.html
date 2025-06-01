@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rebane OS - Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #222;
+            color: white;
+            margin: 0;
+            padding: 50px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #333;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            font-size: 2em;
+        }
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 15px;
+            font-size: 18px;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        .credits {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #444;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Rebane OS</h1>
+        <p>The ultimate C# powered OS experience.</p>
+        <a href="https://github.com/RamPlayzTheEpic/Rebane-OS/releases/tag/operatingsystem" class="button">Download Rebane OS</a>
+        <button class="credits" onclick="showCredits()">Credits</button>
+    </div>
+
+    <script>
+        function showCredits() {
+            alert("Made by Ram in C#.");
+        }
+    </script>
+</body>
+</html>
